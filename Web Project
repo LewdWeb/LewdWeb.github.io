@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+		<title>Lab 2</title>
+	</head>
+	<body>
+		<h1>Social Media Links</h1>
+		<hr>
+			<figure>
+				<a href="https://youtube.com/">
+				<img 	src="Youtube.png" 
+					alt="Image cannot Load"
+					width="400"
+					height="400">
+				</a>
+				<br>
+				<a href="https://reddit.com/">
+				<img	src="Reddit.jpg"
+					alt="Image cannot Load"
+					width="300"
+					height="300">
+				</a>
+				<br>
+				<a href="https://twitter.com/">
+				<img	src="Twitter.png"
+					alt="Image cannot Load"
+					width="512"
+					height="512">
+				<br>
+				<a href="https://discord.com/">
+				<img	src="Discord.png"
+					alt="Image cannot Load"
+					width="512"
+					height="512">
+				</a>
+				<br>
+			</figure>
+		<hr>
+	</body>
+</html>
