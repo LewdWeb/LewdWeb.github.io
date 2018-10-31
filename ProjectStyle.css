@@ -1,7 +1,9 @@
 body { background-color: #708090; slategray; }
 h1 { text-align: center; color: #8B0000; darkred; }
 hr { color: #2F4F4F; darkslategray; }
+i { color: #8B0000; darkred; }
 figure { 
+					background-color: darkseagreen;
 					margin: 1em; 
 					padding: 1em; 
 					border: 1em thin solid; 
