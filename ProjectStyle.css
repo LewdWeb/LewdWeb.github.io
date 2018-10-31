@@ -3,6 +3,7 @@ h1 { text-align: center; color: #8B0000; darkred; }
 hr { color: #2F4F4F; darkslategray; }
 i { color: #8B0000; darkred; }
 figure { 
+					display: block;
 					background-color: #2F4F4F; darkslategray;
 					margin: 1em; 
 					padding: 1em; 
