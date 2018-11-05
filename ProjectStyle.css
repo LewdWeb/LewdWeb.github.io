@@ -2,6 +2,7 @@ body { background-color: #708090; slategray; }
 h1 { text-align: center; color: #8B0000; darkred; }
 hr { color: #2F4F4F; darkslategray; }
 i { color: #8B0000; darkred; }
+p { margin : 1em; }
 figure { 
 					display: block;
 					background-color: #778899; lightslategray;
