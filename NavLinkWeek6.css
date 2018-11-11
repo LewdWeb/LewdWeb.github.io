@@ -9,6 +9,7 @@ body>header>ol>li {
     			background-color: blue;
     			list-style-type: none;
 							}
+body>header>nav>ol>li>a { padding: 30px; text-align: center; font-size: 35px; color: blue; }
 body>header>nav>ol>li :hover { background-color: black; }
 body>header>nav>ol>li :active { background-color: gray; }
 body>header>nav>ol>li>a {
