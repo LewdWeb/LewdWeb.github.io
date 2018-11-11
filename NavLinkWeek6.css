@@ -30,3 +30,5 @@ nav {
 nav ul { list-style-type: none; padding: 0; }
 
 @media (max-width: 600px) { nav, article { width: 100%; } }
+
+@media (min-width: 600px) { nav, article { width: 600px; } }
