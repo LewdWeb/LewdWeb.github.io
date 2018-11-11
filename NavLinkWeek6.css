@@ -21,8 +21,7 @@ body>header>nav>ol>li>a {
 
 nav {
    	float: center;
-    	width: 30%;
-    	height: 300px;
+    	width: 100%;
     	padding: 20px;
 			}
 
