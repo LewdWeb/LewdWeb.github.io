@@ -12,6 +12,7 @@ body>header>ol>li {
 body>header>nav>ol>li>a { padding: 30px; text-align: center; color: blue; }
 body>header>nav>ol>li :hover { background-color: black; }
 body>header>nav>ol>li :active { background-color: gray; }
+body>header>nav>ol>li { display: inline-block; }
 body>header>nav>ol>li>a {
     				display: block;
     				padding: 1em;
