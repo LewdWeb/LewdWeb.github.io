@@ -17,58 +17,17 @@ body>header>nav>ol>li>a {
     				color: blue;
     				text-decoration: red;
 							}
-body>main { padding: 1em; }
-body>header>nav>ol>li{ display: inline-block; 
-			text-align: center;	}
 
-body>div {
-    		display: block;
-    		box-sizing: border-box;
-    		padding: 1em;
-    		
-    		vertical-align: center;
-						}
-
-ul.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 600px;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-}
-
-ul.nav li a {
-    display: inline-block;
-    padding: 8px 16px;
-
-}
+nav {
+   	float: center;
+    	width: 30%;
+    	height: 300px;
+    	padding: 20px;
+			}
 
 
-div.content {
-    margin-left: 600px;
-    padding: 1px 16px;
-    height: 1000px;
-}
+nav ul { list-style-type: none; padding: 0; }
 
-@media screen and (min-width: 600px) {
-    ul.nav {
-        width: 600px;
-        height: auto;
-        position: fixed;
-    }
-    ol.nav li a {
-        float: left;
-        padding: 15px;
-    }
-    div.content {margin-left: 0;}
-}
+@media (max-width: 600px) { nav, article { width: 100%; height: auto; }
 
-@media screen and (max-width: 1) {
-    ul.nav li a {
-        text-align: center;
-	display : block;
-        float: none;
-    }
 }
