@@ -13,7 +13,7 @@ body>header>nav>ul>li :hover { background-color: black; }
 body>header>nav>ul>li :active { background-color: gray; }
 body>header>nav>ul>li { display: inline-block; }
 body>header>nav>ul>li>a {
-    				display: block;
+    				display: inline;
     				padding: 1em;
     				color: blue;
     				text-decoration: red;}
