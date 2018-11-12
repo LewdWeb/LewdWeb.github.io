@@ -18,7 +18,7 @@ body>header>nav>ul>li>a {
     				padding: 1em;
     				color: blue;
     				text-decoration: red;}
-
+@media print { #Header, #Footer { display: none !important; } }
 #Header, #Footer #ul { display: none !important; }
 ul {    
 	list-style-type: none;
