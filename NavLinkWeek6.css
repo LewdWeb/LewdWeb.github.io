@@ -3,19 +3,19 @@ body { margin: 0; }
 body { background-color : gray;}
 li { text-align: center; }
 body>header { text-align: center; }
-body>header>ol>li {
+body>header>ul>li {
     			margin: 0;
     			padding: 0;
     			list-style-type: none;
 							}
-body>header>nav>ol>li>a { text-align: center; color: blue; }
-body>header>nav>ol>li :hover { background-color: black; }
-body>header>nav>ol>li :active { background-color: gray; }
-body>header>nav>ol>li { display: inline-block; }
-body>header>nav>ol>li>a {
+body>header>nav>ul>li>a { text-align: center; color: blue; }
+body>header>nav>ul>li :hover { background-color: black; }
+body>header>nav>ul>li :active { background-color: gray; }
+body>header>nav>ul>li { display: inline-block; }
+body>header>nav>ul>li>a {
     				display: block;
     				padding: 1em;
     				color: blue;
     				text-decoration: red;}
 
-@media only screen and (max-width: 600px) { body>header>nav>ol>li { background-color: lightblue; } }
+@media only screen and (max-width: 600px) { body>header>nav>ul>li { background-color: lightblue; } }
