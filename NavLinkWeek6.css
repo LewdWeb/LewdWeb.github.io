@@ -16,18 +16,6 @@ body>header>nav>ol>li>a {
     				display: block;
     				padding: 1em;
     				color: blue;
-    				text-decoration: red;
-							}
+    				text-decoration: red;}
 
-nav {
-   	text-align: center;
-			}
-
-
-nav ul { list-style-type: none; padding: 0; 
-
-@media (max-width: 100%) { nav, article { width: 100%; display : inline-block; } }
-
-@media (min-width: 600px) { nav, article { width: 600px; display : block; } }
-
-}
+@media only screen and (max-width: 600px) { body>header>nav>ol>li>a { background-color: lightblue; } }
