@@ -9,7 +9,7 @@ body>header>ol>li {
     			background-color: blue;
     			list-style-type: none;
 							}
-body>header>nav>ol>li>a { padding: 30px; text-align: center; color: blue; }
+body>header>nav>ol>li>a { text-align: center; color: blue; }
 body>header>nav>ol>li :hover { background-color: black; }
 body>header>nav>ol>li :active { background-color: gray; }
 body>header>nav>ol>li { display: inline-block; }
@@ -23,12 +23,11 @@ body>header>nav>ol>li>a {
 nav {
    	text-align: center;
     	width: 100%;
-    	padding: 20px;
 			}
 
 
 nav ul { list-style-type: none; padding: 0; }
 
-@media (max-width: 600px) { nav, article { width: 100%; } }
+@media (max-width: 100%) { nav, article { width: 100%; } }
 
 @media (min-width: 600px) { nav, article { width: 600px; } }
