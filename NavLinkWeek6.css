@@ -6,7 +6,6 @@ body>header { text-align: center; }
 body>header>ol>li {
     			margin: 0;
     			padding: 0;
-    			background-color: blue;
     			list-style-type: none;
 							}
 body>header>nav>ol>li>a { text-align: center; color: blue; }
@@ -22,7 +21,6 @@ body>header>nav>ol>li>a {
 
 nav {
    	text-align: center;
-    	width: 100%;
 			}
 
 
