@@ -18,10 +18,12 @@ body>header>nav>ul>li>a {
     				padding: 1em;
     				color: blue;
     				text-decoration: red;}
+
+@media only screen and (max-width: 600px) { body>header>nav>ul>li>a { display: block; color: green; width: 600px; } }
+
 @media print { body>header>nav>ul { display: none !important; } }
 ul {    
 	list-style-type: none;
     	margin: 0;
 	padding: 0; 
 				}
-@media only screen and (max-width: 600px) { body>header>nav>ul>li>a { display: block; color: green; width: 600px; } }
