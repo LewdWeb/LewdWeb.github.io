@@ -26,8 +26,10 @@ nav {
 			}
 
 
-nav ul { list-style-type: none; padding: 0; }
+nav ul { list-style-type: none; padding: 0; 
 
-@media (max-width: 100%) { nav, article { width: 100%; } }
+@media (max-width: 100%) { nav, article { width: 100%; display : inline-block; } }
 
-@media (min-width: 600px) { nav, article { width: 600px; } }
+@media (min-width: 600px) { nav, article { width: 600px; display : block; } }
+
+}
