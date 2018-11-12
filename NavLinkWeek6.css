@@ -22,4 +22,4 @@ ul {
     	margin: 0;
 	padding: 0; 
 				}
-@media only screen and (max-width: 600px) { li a { display: block; width: 600px; } }
+@media only screen and (max-width: 600px) { body>header>nav>ul>li>a { display: block; width: 600px; } }
