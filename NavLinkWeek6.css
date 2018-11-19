@@ -30,8 +30,7 @@ ul {
 
 #togBut {
   		border: 2px solid white;
-  		border-radius: 25px;
-  		background: #8296DF;
+  		background: gray;
   		padding: 5px;  			}
 
 #togBut:hover {
