@@ -6,5 +6,5 @@ function NightMode()
   
     
   if (backgroundColor == "gray") { document.getElementById('mydiv').style.backgroundColor="white"; } 
-  else { document.getElementById('mydiv').style.backgroundColor="gray";}
+  else { document.getElementById('mydiv').style.backgroundColor="gray"; }
 }
