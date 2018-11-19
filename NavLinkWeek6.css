@@ -31,11 +31,11 @@ ul {
 #togBut {
   		border: 2px solid white;
   		border-radius: 25px;
-  		background-color: #8296DF;
+  		background: #8296DF;
   		padding: 5px;  			}
 
 #togBut:hover {
-  			background-color: black;
+  			background: black;
   			color: white; 		}
 #mydiv {
 
