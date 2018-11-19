@@ -14,10 +14,12 @@
       <ul>
         
           <p>Lab 7: Navigation Menu (small size)</p>
+          <li><input type="button" value="Dark Theme" onclick="apply_theme('dark')"></li>
           <li><a href="#BMS">Bee Movie Script &nbsp;</a></li>
           <li><a href="#S">&nbsp; Shrek Movie Script &nbsp;</a></li>
           <li><a href="#CVS">&nbsp; Corrupted Vor's Speech </a></li>
-         </ul>
+          <li><input type="button" value="Light Theme" onclick="apply_theme('light')"></li>
+          </ul>
           <br>
           <button onClick = "NightMode()" id= togBut>Night/Day Mode</button>
           <br>
@@ -29,7 +31,7 @@
   @media print { @page { size: auto; margin: 0; } body { margin: 1.6cm; } }
   h1 { text-align: center; }
 </style>
-
+<main>
   <h1>Lab 7: Website Title</h1>
   <hr>
   <div id="mydiv">
@@ -154,7 +156,8 @@
         We cannot blame these creatures, they are being led by a false prophet, an impostor who knows not the secrets of the Void. Behold the Tenno, come to scavenge and desecrate this sacred realm. My brothers, did I not tell of this day? Did I not prophesize this moment? Now, I will stop them. 
         Now I am changed, reborn through the energy of the Janus Key. Forever bound to the Void. Let it be known, if the Tenno want true salvation, they will lay down their arms, and wait for the baptism of my Janus key. It is time. I will teach these trespassers the redemptive power of my Janus key. 
         They will learn its simple truth. The Tenno are lost, and they will resist. But I, Vor, will cleanse this place of their impurity.</p>
-  </div>     
+  </div>
+    <script src="NightMode.js"></script>
+    </main>     
 </body>
-    </div>
 </html>
