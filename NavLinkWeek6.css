@@ -31,9 +31,18 @@ ul {
 #togBut {
   		border: 2px solid white;
   		border-radius: 25px;
-  		background: #8296DF;
+  		background-color: #8296DF;
   		padding: 5px;  			}
 
 #togBut:hover {
-  			background: black;
+  			background-color: black;
   			color: white; 		}
+#mydiv {
+
+  
+  height: 600px;
+  padding: 10px;
+  line-height: 2em;
+  font-size: 1em;
+  
+}
