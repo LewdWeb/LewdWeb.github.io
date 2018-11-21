@@ -33,7 +33,7 @@ function apply_theme(theme)
   }
   else if ( theme == 'dark' )
   {
-  fg_color = 'white';
+  fg_color = 'black';
   bg_color = 'gray';
   }
   document.body.style.color = fg_color;
