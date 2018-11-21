@@ -2,15 +2,15 @@
 li { color : blue; }
 body { margin: 0; }
 
-li { text-align: justify; }
-body>header { text-align: justify; }
+li { text-align: center; }
+body>header { text-align: center; }
 body>header>ul>li {
 			text-align: center;
     			margin: 0;
     			padding: 0;
     			list-style-type: none;
 							}
-body>header>nav>ul>li>a { text-align: center; color: blue; }
+body>header>nav>ul>li>a { color: blue; }
 body>header>nav>ul>li :hover { background-color: black; }
 body>header>nav>ul>li :active { background-color: gray; }
 body>header>nav>ul>li { display: inline-block; }
