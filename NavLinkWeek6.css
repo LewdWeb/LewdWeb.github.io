@@ -22,17 +22,3 @@ body>header>nav>ul>li>a {
 @media only screen and (max-width: 1200px) { body>header>nav>ul>li>a { display: block; color: green; width: 1200px; } }
 
 @media print { body>header>nav>ul { display: none !important; } h1, hr { display: none !important; } }
-/*ul {    
-	list-style-type: none;
-    	margin: 0;
-	padding: 0; 
-				}
-
-#togBut {
-  		border: 2px solid black;
-  		background: gray;
-  		padding: 5px;  			}
-
-#togBut:hover {
-  			background: black;
-  			color: white; 		}*/
