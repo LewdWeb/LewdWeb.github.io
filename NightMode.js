@@ -34,7 +34,7 @@ function apply_theme(theme)
   else if ( theme == 'dark' )
   {
   fg_color = 'white';
-  bg_color = 'black';
+  bg_color = 'gray';
   }
   document.body.style.color = fg_color;
   document.body.style.backgroundColor = bg_color;
