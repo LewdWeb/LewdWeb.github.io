@@ -1,4 +1,4 @@
-function NightMode() 
+/*function NightMode() 
 {
 
   var color = document.getElementById('mydiv').style.color;
@@ -16,7 +16,7 @@ function NightMode()
 
     }
 
-}
+}*/
 
 function apply_theme(theme)
 {
