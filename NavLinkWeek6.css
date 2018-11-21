@@ -3,7 +3,7 @@ li { color : blue; }
 body { margin: 0; }
 
 li { text-align: justify; }
-body>header { text-align: center; }
+body>header { text-align: justify; }
 body>header>ul>li {
     			margin: 0;
     			padding: 0;
