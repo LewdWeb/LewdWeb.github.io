@@ -13,13 +13,13 @@ body>header>ul>li {
 body>header>nav>ul>li>a { color: blue; }
 body>header>nav>ul>li :hover { background-color: black; color: white; }
 body>header>nav>ul>li :active { background-color: gray; }
-body>header>nav>ul>li { display: inline-block; }
+
 body>header>nav>ul>li>a {
     				
     				padding: 1em;
     				color: blue;
     				text-decoration: red;}
 
-@media only screen and (max-width: 1200px) { body>header>nav>ul>li>a { display: inline-block; color: green; width: 1200px; } }
+@media only screen and (max-width: 1200px) { body>header>nav>ul>li>a { display: block; color: green; } }
 
 @media print { body>header>nav>ul { display: none !important; } h1, hr { display: none !important; } }
