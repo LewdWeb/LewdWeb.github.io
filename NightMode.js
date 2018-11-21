@@ -37,7 +37,7 @@ function apply_theme(theme)
   bg_color = 'navy';
   }
   document.body.style.color = fg_color;
-  document.body.stle.backgroundColor = bg_color;
+  document.body.style.backgroundColor = bg_color;
   localStorage.setItem( 'theme', theme );
 }
 var saved_theme = localStorage.getItem('theme');
