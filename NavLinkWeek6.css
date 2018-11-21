@@ -20,6 +20,6 @@ body>header>nav>ul>li>a {
     				color: blue;
     				text-decoration: red;}
 
-@media only screen and (max-width: 1200px) { body>header>nav>ul>li>a { display: block; color: green; list-style-type: none; width: 1200px; } }
+@media only screen and (max-width: 1200px) { body>header>nav>ul>li>a { display: block; color: green; list-style-type: none; width: 50%; } }
 
 @media print { body>header>nav>ul { display: none !important; } h1, hr { display: none !important; } }
