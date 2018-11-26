@@ -45,15 +45,14 @@
 </head>
 <body>
 
-<h2>Clickable Dropdown</h2>
-<p>Click on the button to open the dropdown menu.</p>
+<h2>Lab Week 9: Dropdown Theme Selector</h2>
 
 <div class="dropdown">
 <button onclick="myFunction()" class="dropbtn">Dropdown</button>
   <div id="myDropdown" class="dropdown-content">
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
+     <a href="DarkTheme"<input type="button" value="Dark Theme" onclick="apply_theme('dark')"></a>
+     <a href="#LightTheme"<input type="button" value="Light Theme" onclick="apply_theme('light')"></a>
+     <a href="#contact">Contact</a>
   </div>
 </div>
 
@@ -78,6 +77,31 @@ window.onclick = function(event) {
     }
   }
 }
+
+function apply_theme(theme)
+{
+  var fg_color = '';
+  var bg_color = '';
+  if ( theme == null)
+  {
+    theme = 'light';
+  }
+  if ( theme == 'light')
+  {
+    fg_color = 'black';
+    bg_color = 'white';
+  }
+  else if ( theme == 'dark' )
+  {
+  fg_color = 'black';
+  bg_color = 'gray';
+  }
+  document.body.style.color = fg_color;
+  document.body.style.backgroundColor = bg_color;
+  localStorage.setItem( 'theme', theme );
+}
+var saved_theme = localStorage.getItem('theme');
+apply_theme(saved_theme);
 </script>
 
 </body>
