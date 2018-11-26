@@ -1,3 +1,29 @@
+@media print { @page { size: auto; margin: 0; } body { margin: 1.6cm; } }
+li { color : blue; }
+body { margin: 0; }
+
+li { text-align: center; }
+body>header { text-align: center; }
+body>header>ul>li {
+			
+    			margin: 0;
+    			padding: 0;
+    			list-style-type: none;
+							}
+body>header>nav>ul>li>a { color: blue; }
+body>header>nav>ul>li :hover { background-color: black; color: yellow; }
+body>header>nav>ul>li :active { background-color: gray; }
+body>header>nav>ul>li { display: inline; padding: 1em; list-style-type: none;  }
+body>header>nav>ul>li>a {
+    				
+    				padding: 1em;
+    				color: blue;
+    				text-decoration: red;}
+
+@media only screen and (max-width: 1200px) { body>header>nav>ul>li>a { display: block; color: green; list-style-type: none; margin: auto;} }
+
+@media print { body>header>nav>ul { display: none !important; } h1, hr { display: none !important; } }
+
 .dropbtn {
     background-color: #3498DB;
     color: white;
@@ -36,28 +62,3 @@
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
-@media print { @page { size: auto; margin: 0; } body { margin: 1.6cm; } }
-li { color : blue; }
-body { margin: 0; }
-
-li { text-align: center; }
-body>header { text-align: center; }
-body>header>ul>li {
-			
-    			margin: 0;
-    			padding: 0;
-    			list-style-type: none;
-							}
-body>header>nav>ul>li>a { color: blue; }
-body>header>nav>ul>li :hover { background-color: black; color: yellow; }
-body>header>nav>ul>li :active { background-color: gray; }
-body>header>nav>ul>li { display: inline; padding: 1em; list-style-type: none;  }
-body>header>nav>ul>li>a {
-    				
-    				padding: 1em;
-    				color: blue;
-    				text-decoration: red;}
-
-@media only screen and (max-width: 1200px) { body>header>nav>ul>li>a { display: block; color: green; list-style-type: none; margin: auto;} }
-
-@media print { body>header>nav>ul { display: none !important; } h1, hr { display: none !important; } }
