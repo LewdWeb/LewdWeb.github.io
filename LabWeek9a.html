@@ -126,19 +126,19 @@ function apply_theme(theme)
   var elements = document.getElementsByTagName("span");
   for(var j=0;j<elements.length;j++)
   {
-    if(elements[j].className === "yin")
+    if(elements[j].className == 'yin')
     {
         elements = 'gray';
     }
-    if(elements[j].className === "yang")
+    if(elements[j].className == 'yang')
     {
         elements = 'gray';
     }
-    else if(elements[j].className === "fall")
+    else if(elements[j].className == 'fall')
     {
         elements = 'brown';
     }
-    else if(elements[j].className === "winter")
+    else if(elements[j].className == 'winter')
     {
         elements = 'white';
     }
