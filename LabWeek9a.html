@@ -122,7 +122,27 @@ function apply_theme(theme)
 {
   var fg_color = '';
   var bg_color = '';
-  //var x = document.getElementById('<a href="#TSC">').href; 
+  
+  var elements = document.getElementsByTagName("span");
+  for(var j=0;j<elements.length;j++)
+  {
+    if(elements[j].className === "yin")
+    {
+        elements = 'gray';
+    }
+    if(elements[j].className === "yang")
+    {
+        elements = 'gray';
+    }
+    else if(elements[j].className === "fall")
+    {
+        elements = 'brown';
+    }
+    else if(elements[j].className === "winter")
+    {
+        elements = 'white';
+    }
+  }
   if ( theme == null)
   {
     theme = 'yin';
@@ -131,30 +151,28 @@ function apply_theme(theme)
   {
     fg_color = 'white';
     bg_color = 'black';
-    x = 'gray';
+    elements = 'gray';
   }
   else if ( theme == 'yang' )
   {
   fg_color = 'black';
   bg_color = 'white';
-  x = 'gray';
+  elements = 'gray';
   }
   else if ( theme == 'fall' )
   {
   fg_color = 'chocolate';
   bg_color = 'black';
-  x = 'brown';
+  elements = 'brown';
   }
   else if ( theme == 'winter' )
   {
   fg_color = 'lime';
   bg_color = 'firebrick';
-  x = 'white';
+  elements = 'white';
   }
   document.body.style.color = fg_color;
   document.body.style.backgroundColor = bg_color;
-
-
   
   localStorage.setItem( 'theme', theme );
 }
