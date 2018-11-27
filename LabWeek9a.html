@@ -122,27 +122,13 @@ function apply_theme(theme)
 {
   var fg_color = '';
   var bg_color = '';
+  var a_color = '';
+  var elements = document.querySelectorAll('a.red');
+
+  [].slice.call(elements).forEach(function(elem) {
+    elem.style.color = 'red';
+  });
   
-  var elements = document.getElementsByTagName("span");
-  for(var j=0;j<elements.length;j++)
-  {
-    if(elements[j].className == 'yin')
-    {
-        elements = 'gray';
-    }
-    if(elements[j].className == 'yang')
-    {
-        elements = 'gray';
-    }
-    else if(elements[j].className == 'fall')
-    {
-        elements = 'brown';
-    }
-    else if(elements[j].className == 'winter')
-    {
-        elements = 'white';
-    }
-  }
   if ( theme == null)
   {
     theme = 'yin';
@@ -151,29 +137,29 @@ function apply_theme(theme)
   {
     fg_color = 'white';
     bg_color = 'black';
-    elements = 'gray';
+    a_color = 'gray';
   }
   else if ( theme == 'yang' )
   {
   fg_color = 'black';
   bg_color = 'white';
-  elements = 'gray';
+  a_color = 'gray';
   }
   else if ( theme == 'fall' )
   {
   fg_color = 'chocolate';
   bg_color = 'black';
-  elements = 'brown';
+  a_color = 'brown';
   }
   else if ( theme == 'winter' )
   {
   fg_color = 'lime';
   bg_color = 'firebrick';
-  elements = 'white';
+  a_color = 'white';
   }
   document.body.style.color = fg_color;
   document.body.style.backgroundColor = bg_color;
-  
+  document.body.style.element = a_color;
   localStorage.setItem( 'theme', theme );
 }
 var saved_theme = localStorage.getItem('theme');
