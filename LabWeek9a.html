@@ -127,11 +127,9 @@ function apply_theme(theme)
   var fg_color = '';
   var bg_color = '';
   var a_color = '';
-  //var elements = document.querySelectorAll('a.red');
 
-  [].slice.call(elements).forEach(function(elem) {
-    elem.style.color = 'red';
-  });
+
+
   
   if ( theme == null)
   {
@@ -163,7 +161,7 @@ function apply_theme(theme)
   }
   document.body.style.color = fg_color;
   document.body.style.backgroundColor = bg_color;
-  document.getElementById("RAM").innerHTML = a_color;
+  
   localStorage.setItem( 'theme', theme );
 }
 var saved_theme = localStorage.getItem('theme');
