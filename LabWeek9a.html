@@ -127,7 +127,7 @@ function apply_theme(theme)
   var fg_color = '';
   var bg_color = '';
   var a_color = '';
-
+  var ul_color = '';
   
   if ( theme == null)
   {
@@ -138,34 +138,37 @@ function apply_theme(theme)
     fg_color = 'white';
     bg_color = 'black';
     a_color = 'lightslategray';
+    ul_color = 'gray';
   }
   else if ( theme == 'yang' )
   {
   fg_color = 'black';
   bg_color = 'white';
   a_color = 'darkslategray';
+  ul_color = 'gray';
   }
   else if ( theme == 'fall' )
   {
   fg_color = 'chocolate';
   bg_color = 'black';
   a_color = 'olive';
-
+  ul_color = 'purple';
   }
   else if ( theme == 'winter' )
   {
   fg_color = 'lime';
   bg_color = 'firebrick';
   a_color = 'snow';
+  ul_color = 'aliceblue';
 
   }
   document.body.style.color = fg_color;
   document.body.style.backgroundColor = bg_color;
-  document.getElementById("aRAM").style.color = a_color;
+  document.getElementById("aRAM").style.color = ul_color;
   document.getElementsByTagName("a")[0].style.color = a_color;
-  document.getElementById("aTSC").style.color = a_color;
+  document.getElementById("aTSC").style.color = ul_color;
   document.getElementsByTagName("a")[1].style.color = a_color;
-  document.getElementById("aMNJ").style.color = a_color;
+  document.getElementById("aMNJ").style.color = ul_color;
   document.getElementsByTagName("a")[2].style.color = a_color;
   localStorage.setItem( 'theme', theme );
 }
