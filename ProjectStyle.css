@@ -4,13 +4,24 @@ hr { color: #2F4F4F; darkslategray; }
 i { color: #8B0000; darkred; }
 p { margin : 1em; }
 figure { 
-					display: block;
-					background-color: #778899; lightslategray;
-					margin: 1em; 
-					padding: 1em; 
-					p.solid {border-style: solid;}
-					border style: 1em thin solid; 
-					border-color: #000000; black; 
-				}
+		display: block;
+		background-color: #778899; lightslategray;
+		margin: 1em; 
+		padding: 1em; 
+		p.solid {border-style: solid;}
+		border style: 1em thin solid; 
+		border-color: #000000; black; 
+						}
+div {
+	display: block;
+	background-color: #778899; lightslategray;
+	margin: 1em; 
+	padding: 1em; 
+	p.solid {border-style: solid;}
+	border style: 1em thin solid; 
+	border-color: #000000; black;
+	overflow: auto;
+	text-align: left;
+							}
 /*"https://www.rapidtables.com/web/css/css-color.html"*/
 /*https://fonts.google.com/*/
