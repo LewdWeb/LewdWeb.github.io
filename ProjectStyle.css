@@ -35,10 +35,10 @@ th {	text-align: center;
 div {
 	display: block;
 	background-color: #778899; lightslategray;
-	margin: 1em; 
+	margin: 10px; 
 	padding: 1em; 
-	p.solid {border-style: solid;}
-	border style: 1em thin solid; 
+	p.solid { border-style: solid; }
+	border style: solid; 
 	border-color: #000000; black;
 	text-align: left;
 							}
