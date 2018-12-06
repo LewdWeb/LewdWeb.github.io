@@ -12,6 +12,7 @@ figure {
 		border style: 1em thin solid; 
 		border-color: #000000; black; 
 						}
+th { text-align: left; }
 div {
 	display: block;
 	background-color: #778899; lightslategray;
