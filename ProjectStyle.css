@@ -15,20 +15,19 @@ figure {
 th {	text-align: center;
 
 					}
-/* width */
+/*
 ::-webkit-scrollbar {
     width: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
     background: #8B0000; darkred; #778899; lightslategray; 
 }
  
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: #2F4F4F; darkslategray; 
 }
+*/
 
 }
 
