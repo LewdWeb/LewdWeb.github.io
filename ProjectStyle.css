@@ -19,7 +19,7 @@ table { text-align: left;
 	background-color: #778899; lightslategray;
 	
 									}
-table td       {	border: inset 1px #000;
+table td       {	border: inset 10px #000;
 			margin: 10px; 
 			padding: 10px;
 							}
