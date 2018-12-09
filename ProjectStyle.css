@@ -12,19 +12,16 @@ figure {
 		border style: 1em thin solid; 
 		border-color: #000000; black; 
 						}
-th {	text-align: center;
-
-					}
-table { text-align: left;
-	background-color: #778899; lightslategray;
-	border: inset 5px #000;
+th	{	text-align: center;	}
+table	{ text-align: left; }
+	
 	
 									}
 table td       {	border: inset 5px #000;
 			margin: 10px; 
 			padding: 10px;
 							}
-table tr#ROW1  {background-color:#778899; lightslategray}
+table tr#ROW1  {background-color:#778899; lightslategray;}
 
 /*
 ::-webkit-scrollbar {
