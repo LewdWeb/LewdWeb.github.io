@@ -16,10 +16,10 @@ th {	text-align: center;
 
 					}
 table { text-align: left;
-	background-color: #FAF0E6; linen; #BC8F8F; burlywood;
-	border:ridge 10px #808080; gray; 
+	background-color: #778899; lightslategray;
+	border:ridge 10px #B22222; firebrick;
 									}
-table td       {	border:inset 1px #778899;
+table td       {	border:inset 1px #8B0000; darkred;
 			margin: 10px; 
 			padding: 10px;
 							}
