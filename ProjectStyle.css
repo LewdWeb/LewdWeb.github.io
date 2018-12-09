@@ -15,6 +15,9 @@ figure {
 th {	text-align: center;
 
 					}
+table { text-align: left;
+	background-color: #525E5D;
+					}
 /*
 ::-webkit-scrollbar {
     width: 10px;
