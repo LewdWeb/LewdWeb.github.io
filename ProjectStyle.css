@@ -23,7 +23,7 @@ table td       {	border:inset 1px #778899;
 			margin: 10px; 
 			padding: 10px;
 							}
-table tr#ROW1  {background-color:#696969;}
+table tr#ROW1  {background-color: #D2B48C; tan; #696969;}
 table tr#ROW2  {background-color:#778899; lightslategray}
 /*
 ::-webkit-scrollbar {
