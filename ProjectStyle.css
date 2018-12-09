@@ -16,11 +16,11 @@ th {	text-align: center;
 
 					}
 table { text-align: left;
-	background-color: #525E5D;
+	background-color: sienna; #525E5D;
 	border:ridge 10px gray; 
 					}
-  table td       {border:inset 1px #000;}
-  table tr#ROW1  {background-color:#525E5D;}
+  table td       {border:inset 1px #778899;}
+  table tr#ROW1  {background-color:#696969;}
 /*
 ::-webkit-scrollbar {
     width: 10px;
