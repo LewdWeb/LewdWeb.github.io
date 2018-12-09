@@ -17,7 +17,10 @@ th {	text-align: center;
 					}
 table { text-align: left;
 	background-color: #525E5D;
+	border:ridge 10px gray; 
 					}
+  table td       {border:inset 1px #000;}
+  table tr#ROW1  {background-color:#525E5D;}
 /*
 ::-webkit-scrollbar {
     width: 10px;
