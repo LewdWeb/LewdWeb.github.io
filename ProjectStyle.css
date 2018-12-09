@@ -19,12 +19,12 @@ table { text-align: left;
 	background-color: sienna; #A0522D;
 	border:ridge 10px gray; 
 					}
-
-  table td       {	border:inset 1px #778899;
+table td       {	border:inset 1px #778899;
 			margin: 10px; 
 			padding: 10px;
 							}
-  table tr#ROW1  {background-color:#696969;}
+table tr#ROW1  {background-color:#696969;}
+table tr#ROW2  {background-color:#778899; lightslategray}
 /*
 ::-webkit-scrollbar {
     width: 10px;
