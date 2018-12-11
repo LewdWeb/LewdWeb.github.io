@@ -20,8 +20,11 @@ table	{ text-align: left; }
 table td       {	border: inset 5px #000;
 			margin: 10px; 
 			padding: 10px;
-							}
-table tr#ROW1  {background-color:#778899; lightslategray;}
+									}
+table tr#ROW1  {	background-color:#778899; lightslategray;
+			margin: 10px; 
+			padding: 10px;				
+									}
 
 /*
 ::-webkit-scrollbar {
