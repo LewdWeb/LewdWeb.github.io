@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Ethel Players Info</title>
+    <meta charset="UTF-8">
+        	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="ProjectStyle.css">
+</head>
+<body>
+    <h1>Ethel Wiki: Player</h1>
+    <hr>
+    <figure>
+    <nav>
+    <table>
+	    <tr><th><b>Table of Contents:</b></th></tr>
+	    <tr><td><a href="#Bass">Bass Corvana</a></td></tr>
+	    <tr><td><a href="#Cherie">Cherie Lutetia</a></td></tr>
+	    <tr><td><a href="#Daedalus">Daedalus Hydreius</a></td></tr>
+	    <tr><td><a href="#Darrian">Darrian O' Conway</a></td></tr>
+            <tr><td><a href="#Derek">Derek Madison</a></td></tr>
+	    <tr><td><a href="#Emily">Emily Ludwig</a></td></tr>
+	    <tr><td><a href="#Kurage">Kurage Kurosaki</a></td></tr>
+	    <tr><td><a href="#Megan">Megan Paige</a></td></tr>
+	    <tr><td><a href="#Mitch">Mitch Boson</a></td></tr>
+	    <tr><td><a href="#Mony">Mony Alison Wiscoff</a></td></tr>
+	    <tr><td><a href="#Oliver">Oliver Boson</a></td></tr>
+	    <tr><td><a href="#Pierce">Pierce Spielberg</a></td></tr>
+	    <tr><td><a href="#Saki">Saki Kurosaki</a></td></tr>
+	    <tr><td><a href="#Silvia">Silvia Victoria</a></td></tr>
+	    <tr><td><a href="#Sophie">Sophie Antiqua</a></td></tr>
+	    <tr><td><a href="#Stitch">Stitch Boson</a></td></tr>
+	    <tr><td><a href="#Valencia">Valencia Fernando</a></td></tr>
+	    <tr><td><a href="#Vizer">Vizer Octovania</a></td></tr>
+    </table>
+    </nav>
+    </figure>
+    <section id="Bass">
+    <dl>
+	    <dt><b>Bass Corvana: Colossal Warrior</b></dt>
+	    <dd><b>Background:</b> Bass was a child sold on the Chinese Market by a rich, sterile US family that adopted him because he was a rarity. 
+	He was seen more as a trophy than their child, so once old enough he stole his father's boat and set sail lost at sea in the Eastern Hemisphere.
+    	Bass' parents lived in the rich suburbs of Rhode Island. The neighbors were snobbish, but they were decent people.</dd>
+	    <p> &emsp; &emsp; <img src="Bass Childhood.png" alt="Image failed to load" width="192" height="128"></p>
+	<dd>
+	Bass' father liked to take him in boat trips and teach him how to fish, so he knows how to pilot a boat.	
+	He liked his parents, but they don't really like him or so to speak. 
+	As mentioned before, he felt like a trophy or a decorative doll rather than a son. 
+	They want to mold his character the way they want their son to be. 
+	They wanted him to become a lawyer (which is why he was able to debunk Vizer's claim in old skit), giving him solid comprehensive reading. 
+	They even want him to be a musician (he plays Brass instruments). 
+	There really wasn't many freedom for him in the household. However, the few things he did enjoy there was that his dad taught him on how to wrestle and box. 
+	He taught him how to fish, read a map, and drive a boat. He loves those things.
+	They let him read/watch eastern martial arts novels/videos which he became a fan of.
+	</dd>
+	
+    </dl>
+	    <hr>
+    <section id="Cherie">
+     <dl>
+	     <dt><b>Cherie Lutetia: Steampunk Alchemist</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+    <section id="Daedalus">
+    <dl>
+	    <dt><b>Daedalus Hydreius: Cyber Scientist</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+    <section id="Darrian">
+     <dl>
+	     <dt><b>Darrian O' Conway: Cyborg Musician</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+    <section id="Derek">
+     <dl>
+     <dt><b>Derek Madison: Captain Lucksman</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+<section id="Emily">
+     <dl>
+	     <dt><b>Emily Ludwig: Elemental Witch</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+<section id="Kurage">
+     <dl>
+	     <dt><b>Kurage Kurosaki: Ninja Gorgon</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+<section id="Megan">
+     <dl>
+	     <dt><b>Megan Paige: Siren of Fate</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+<section id="Mitch">
+     <dl>
+	     <dt><b>Mitch Boson: Brawn Ape</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+<section id="Mony">
+     <dl>
+	     <dt><b>Mony Alison Wiscoff: Teenage Robot</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+<section id="Oliver">
+     <dl>
+	     <dt><b>Oliver Boson: Monkey</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+<section id="Pierce">
+     <dl>
+	     <dt><b>Pierce Spielberg: Dinosaur Man</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+<section id="Saki">
+     <dl>
+	     <dt><b>Saki Kurosaki: Woodsman Sniper</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+<section id="Silvia">
+     <dl>
+	     <dt><b>Silvia Victoria: Wolfgirl of Alfheim</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+<section id="Sophie">
+     <dl>
+	     <dt><b>Sophie Antiqua: French Expirement</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+<section id="Stitch">
+     <dl>
+	     <dt><b>Stitch Boson: Brain Ape</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+<section id="Valencia">
+     <dl>
+	     <dt><b>Valencia Fernando: Bloodsmith</b></dt>
+        <dd>Filler </dd>
+    </dl>
+	    <hr>
+<section id="Vizer">
+     <dl>
+	     <dt><b>Vizer Octovania: Revenant Entertainer</b></dt>
+        <dd>Filler </dd>
+    </dl>
+</body>
+</html>
